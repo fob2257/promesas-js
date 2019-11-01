@@ -1,4 +1,4 @@
-const { goodPromise, badPromise } = require('./promises');
+const { goodPromise, badPromise } = require('../promises');
 
 const fn = () => goodPromise;
 

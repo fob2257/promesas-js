@@ -1,4 +1,4 @@
-const { promiseGet } = require('./promises');
+const { promiseGet } = require('../promises');
 
 const uri = 'https://randomuser.me/api/?results=5';
 
