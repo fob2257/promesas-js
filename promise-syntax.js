@@ -6,5 +6,5 @@ const pendingPromise = promiseGet(uri);
 console.log(pendingPromise);
 
 pendingPromise
-    .then(({ body }) => console.log(JSON.parse(body)))
-    .catch(error => console.log(error));
+  .then(({ body }) => console.log(JSON.parse(body)))
+  .catch(error => console.log(error));
